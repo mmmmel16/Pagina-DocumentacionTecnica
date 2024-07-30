@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación Técnica</title>
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Guía de uso</header>
+        <hr>
+        <ul>
+            <li><a class="nav-link" href="#Introduccion">Introduccion</a></li>
+            <li><a class="nav-link" href="#Instalacion">Instalacion</a></li>
+            <li><a class="nav-link" href="#Uso">Uso</a></li>
+            <li><a class="nav-link" href="#Preguntas_frecuentes">Preguntas frecuentes</a></li>
+            <li><a class="nav-link" href="#Contribuir">Contribuir</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduccion">
+            <header>Introduccion</header>
+            <p>Bienvenido a nuestra documentación técnica. Este documento proporciona una guía completa sobre el uso y las características de nuestro software.</p>
+        </section>
+        <section class="main-section" id="Instalacion">
+            <header>Instalacion</header>
+            <p class="subtitulo">Requisitos previos</p>
+            <p>Antes de comenzar la instalación, asegúrate de tener los siguientes requisitos:</p>
+            <ul>
+                <li>Sistema operativo: Windows/MacOS/Linux</li>
+                <li>Versión mínima de Python: 3.8</li>
+                <li>Herramientas adicionales: Git, Node.js</li>
+            </ul>
+            <p class="subtitulo">Pasos de instalación</p>
+            <ol>
+                <li>
+                    Clona el repositorio:
+                    <code>git clone https://github.com/usuario/proyecto.git</code>
+                </li>
+                <li>
+                    Navega al directorio del proyecto:
+                    <code>cd proyecto</code>
+                </li>
+                <li>
+                    Instala las dependencias:
+                    <code>npm install</code>
+                </li>
+                <li>
+                    Configura el entorno:
+                    Crea un archivo .env y configura las variables de entorno necesarias:
+                    <code>
+                        API_KEY=tu_api_key
+                        DB_HOST=localhost
+                        DB_USER=usuario
+                        DB_PASS=contraseña
+                    </code>
+                </li>
+                <li>
+                    Inicia la aplicación:
+                    <code>npm start</code>
+                </li>
+            </ol>
+        </section>
+        <section class="main-section" id="Uso">
+            <header>Uso</header>
+            <p class="subtitulo">Comandos Principales</p>
+            <p>A continuación, se muestran los comandos principales que puedes utilizar con nuestro proyecto:</p>
+            <ol>
+                <li>
+                    Iniciar la aplicación:
+                    <code>npm start</code>
+                </li>
+                <li>
+                    Ejecutar pruebas:
+                    <code>npm test</code>
+                </li>
+                <li>
+                    Compilar el proyecto:
+                    <code>npm run build</code>
+                </li>
+            </ol>
+        </section>
+        <section class="main-section" id="Preguntas_frecuentes">
+            <header>Preguntas frecuentes</header>
+            <p class="subtitulo">¿Cómo puedo actualizar el proyecto?</p>
+            <p>Para actualizar el proyecto, sigue estos pasos:</p>
+            <ol>
+                <li>
+                    Navega al directorio del proyecto:
+                    <code>cd proyecto</code>
+                </li>
+                <li>
+                    Obtén los últimos cambios del repositorio:
+                    <code>git pull origin main</code>
+                </li>
+                <li>
+                    Instala las nuevas dependencias:
+                    <code>npm install</code>
+                </li>
+            </ol>
+
+            <p class="subtitulo">¿Dónde puedo encontrar más información?</p>
+            <p>Para más detalles, visita nuestra documentación completa o contacta con nuestro equipo de soporte a través de support@example.com.</p>
+        </section>
+        <section class="main-section" id="Contribuir">
+            <header>Contribuir</header>
+            <p>Si deseas contribuir a este proyecto, por favor, sigue nuestras guías de contribución. Agradecemos cualquier aportación que nos ayude a mejorar.</p>
+        </section>
+    </main>
+</body>
+</html>
